@@ -5,6 +5,9 @@
 
 A modern theme for [JSON Resume](http://jsonresume.org/) which is self-contained. The content of the résumé will work offline and can be hosted without depending on or making requests to third-party servers.
 
+This package differs a bit by adding extra LD-JSON for SEO, project section and a footer to "show off" the github repo
+for the website and the corresponding links for my own needs.
+It also looks different with new color theme as well.
 ## Usage
 
 ```sh
@@ -42,7 +45,3 @@ Populates the `head` of the HTML document with [Open Graph](https://ogp.me/) tag
 ### Dark Mode
 
 Includes a dark mode, and uses the [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) CSS property to provide a positive user-experience.
-
-## Preview 
-
-![Preview of Class theme for JSON Resume.](./assets/preview.png)
