@@ -319,6 +319,14 @@
               </div>
             {{/if}}
           </div>
+
+          {{#if keywords.length}}
+            <ul class="horizontal_list" style="text-align: center;">
+              {{#each keywords}}
+                <li style="display: inline;">{{.}}</li>
+              {{/each}}
+            </ul>
+          {{/if}}
         </div>
       {{/each}}
     </section>
